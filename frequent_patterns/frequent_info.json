@@ -1,0 +1,155 @@
+{
+	'jour' : [
+				{
+					'range' : [1-31]
+					'description': 'Day of the accident'
+				}
+	],
+	'mois' : [
+				{
+					'range' : [1-12]
+					'description': 'Month of the accident'
+				}
+	],
+	'lum' : [
+				{
+					'range' : [1-5]
+					'description': 'Lighting : lighting conditions in which the accident occurred'
+				}
+	],
+	'loc' : [
+				{
+					'range' : [1-2]
+					'description': 'Localisation : 1 - Out of agglomeration 2 - In built-up areas'
+				}
+	],
+	'int' : [
+				{
+					'range' : [1-9]
+					'description': 'Type of Intersection'
+					'
+				}
+	],
+	'atm' : [
+				{
+					'range' : [1-9]
+					'description': 'Atmospheric conditions'
+				}
+	],
+	'col' : [
+				{
+					'range' : [1-7]
+					'description':'Type of collision'
+				}
+	],
+	'catr' : [
+				{
+					'range' : [1,2,3,4,5,6,9]
+					'description':'Category of road'
+				}
+	],
+	'circ' : [
+				{
+					'range' : [1-4]
+					'description':
+				}
+	],
+	'vosp' : [
+				{
+					'range' : [1-3]
+					'description':'Indicates the existence of a reserved lane, regardless of whether or not the accident occurs on that lane'
+				}
+	],
+	'Prof' : [
+				{
+					'range' : [1-4]
+					'description':'Longitudinal profile describes the gradient of the road at the accident site'
+				}
+	],
+	'plan' : [
+				{
+					'range' : [1-4]
+					'description':'Drawing in plan'
+				}
+	],
+	'surf' : [
+				{
+					'range' : [1-9]
+					'description': 'surface condition'
+				}
+	],
+	'infra' : [
+				{
+					'range' : [1-7]
+					'description': 'Development - Infrastructure:'
+				}
+	],
+	'situ' : [
+				{
+					'range' : [1-5]
+					'description': 'Situation of the accident'
+				}
+	],
+	'catu' : [
+				{
+					'range' : [1-4]
+					'description':'User category'
+				}
+	],
+	'grav' : [
+				{
+					'range' : [1-4]
+					'description':' Severity of the accident: The injured users are classified into three categories of victims plus the uninjured'
+				}
+	],
+	'sex' : [
+				{
+					'range' : [1-2]
+					'description':'Sex of the user'
+				}
+	],
+	'trip' : [
+				{
+					'range' : [1,2,3,4,5,9]
+					'description':'Reason for traveling at the time of the accident'
+				}
+	],
+	'secu' : [
+				{
+					'range' : [1,2,3,4,9][1,2,3]
+					'description':'on 2 characters:the first concerns the existence of a safety equipment'
+				}
+	],
+	'locp' : [
+				{
+					'range' : [1,2,3,4,5,6,7,8]
+					'description':'Location of the pedestrian:'
+				}
+	],
+	'actp' : [
+				{
+					'range' : [0,1,2,3,4,5,6,9]
+					'description':' Action of the pedestrian'
+				}
+	],
+	'etatp' : [
+				{
+					'range' : [1,2,3]
+					'description':'This variable is used to specify whether the injured pedestrian was alone or not'
+				}
+	],
+	'GP' : [
+				{
+					'range' : [1,2]
+					'description':'Flow direction'
+				}
+	],
+	'CATV' : [
+				{
+					'range' : [1-13]
+					'description':'Reason for traveling at the time of the accident'
+				}
+	]
+	
+
+}
