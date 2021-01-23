@@ -118,7 +118,7 @@
 		],
 		"description": " Severity of the accident: The injured users are classified into three categories of victims plus the uninjured"
 	},
-	"sex": {
+	"sexe": {
 		"range": [
 			1,
 			2
