@@ -1,0 +1,252 @@
+{
+    "mois": {
+		"description": {
+            "type" : "mono",
+            "value" : "Mois de l'accident"
+        }
+	},
+	"jour": {
+        "description": {
+            "type" : "mono",
+            "value" : "Le jour de l'accident"
+        }
+	},
+	"lum": {
+        "description": {
+            "type" : "multi",
+            "1" : "Plein Jour",
+            "2" : "Crépuscule",
+            "3" : "Nuit sans éclairage public",
+            "4" : "Nuit avec éclairage public éteint",
+            "5" : "Nuit avec éclairage public allumé"
+            
+        }
+	},
+	"agg": {
+        "description": {
+            "type" : "multi",
+            "1" : "Hors agglomération",
+            "2" : "En agglomération"
+        }
+	"int": {
+        "description": {
+            "type" : "multi",
+            "1" : "Hors intersection",
+            "2" : "Intersection en X",
+            "3" : "Intersection en T",
+            "4" : "Intersection en Y",
+            "5" : "Intersection avec plus de 4 branches",
+            "6" : "Giratoire",
+            "7" : "Lieu",
+            "8" : "Passage à niveau",
+            "9" : "Autre intersection"
+        }
+	},
+	"atm": {
+        "description": {
+            "type" : "multi",
+            "1" : "Normal",
+            "2" : "Légère pluie",
+            "3" : "Forte pluie",
+            "4" : "Neige - grêle",
+            "5" : "Brouillard - fumée",
+            "6" : "Vent fort - tempête",
+            "7" : "Temps éblouissant",
+            "8" : "Temps nuageux",
+            "9" : "Autre"
+        }
+	},
+	"col": {
+        "description": {
+            "type" : "multi",
+            "1" : "Deux véhicules - frontal",
+            "2" : "Deux véhicules - de l'arrière",
+            "3" : "Deux véhicules - de côté",
+            "4" : "Trois véhicules et plus - en chaîne",
+            "5" : "Trois véhicules ou plus - plusieurs collisions",
+            "6" : "Autre collision",
+            "7" : "Sans collision"
+        }
+	},
+	"catr": {
+        "description": {
+            "type" : "multi",
+            "1" : "Autoroute",
+            "2" : "Route nationale",
+            "3" : "Route départementale",
+            "4" : "Voie communautaire",
+            "5" : "Hors réseau public",
+            "6" : "Parking ouvert à la circulation publique",
+            "9" : "Autre"
+        }
+	},
+	"circ": {
+        "description": {
+            "type" : "multi",
+            "1" : "Sens unique",
+            "2" : "Bidirectionnel",
+            "3" : "Chaussées séparées",
+            "4" : "Avec canaux d'affectation variable"
+        }
+	},
+	"vosp": {
+        "description": {
+            "type" : "multi",
+            "1" : "Piste cyclable",
+            "2" : "Banque de cycles",
+            "3" : "Canal réservé"
+        }
+	},
+	"prof": {
+        "description": {
+            "type" : "multi",
+            "1" : "Plat",
+            "2" : "Pente",
+            "3" : "Sommet de la colline",
+            "4" : "Fond de colline"
+        }
+	},
+	"plan": {
+        "description": {
+            "type" : "multi",
+            "1" : "Partie droite",
+            "2" : "Courbé à gauche",
+            "3" : "Courbé à droite",
+            "4" : "en 'S'"
+        }
+	},
+	"surf": {
+        "description": {
+            "type" : "multi",
+            "1" : "normal",
+            "2" : "humide",
+            "3" : "flaques d'eau",
+            "4" : "inondé",
+            "5" : "neige",
+            "6" : "boue",
+            "7" : "glacial",
+            "8" : "graisse - huile",
+            "9" : "autre"
+        }
+	},
+	"infra": {
+        "description": {
+            "type" : "multi",
+            "1" : "Métro - tunnel",
+            "2" : "Pont - autopont",
+            "3" : "Echangeur ou entretoise de raccordement",
+            "4" : "Chemin de fer",
+            "5" : "Carrefour aménagé",
+            "6" : "Zone piétonne",
+            "7" : "Zone de péage"
+        }
+	},
+	"situ": {
+        "description": {
+            "type" : "multi",
+            "1" : "Sur la route",
+            "2" : "Sur bande d'arrêt d'urgence",
+            "3" : "Au bord",
+            "4" : "Sur le trottoir",
+            "5" : "Sur piste cyclable"
+        }
+	},
+	"catu": {
+        "description": {
+            "type" : "multi",
+            "1" : "Pilote",
+            "2" : "Passager",
+            "3" : "Piéton",
+            "4" : "Piéton en roller ou scooter"
+        }
+	},
+	"grav": {
+        "description": {
+            "type" : "multi",
+            "1" : "Indemne",
+            "2" : "Tué",
+            "3" : "Blessés hospitalisés",
+            "4" : "Blessure légère"
+        }
+	},
+	"sexe": {
+        "description": {
+            "type" : "multi",
+            "1" : "Homme",
+            "2" : "Femme"
+        }
+	},
+	"trajet": {
+        "description": {
+            "type" : "multi",
+            "1" : "Domicile - Travail",
+            "2" : "Maison - école",
+            "3" : "Shopping - Shopping",
+            "4" : "Utilisation professionnelle",
+            "5" : "Promenade - loisirs",
+            "9": "Autre"
+        }
+	},
+	"secu": {
+        "description": {
+            "type" : "multi",
+            "1" : "Ceinture",
+            "2" : "Casque",
+            "3" : "Appareil pour enfants",
+            "4" : "Équipement réfléchissant",
+            "9": "Autre"
+        }
+	},
+	"locp": {
+        "description": {
+            "type" : "multi",
+            "1" : "A + 50 m du passage piéton",
+            "2" : "A - 50 m du passage piéton"
+        }
+	},
+	"actp": {
+        "description": {
+            "type" : "multi",
+            "0": "non spécifié ou non applicable",
+            "1": "Signification du véhicule qui heurte",
+            "2": "Sens inverse du véhicule",
+            "3": "Traversée",
+            "4": "Masqué",
+            "5": "Jouer - courir",
+            "6": "Avec un animal",
+            "9" : "Autre"
+        }
+	},
+	"etatp": {
+        "description": {
+            "type" : "multi",
+            "1" : "Seul,
+            "2" : "Accompagné",
+            "3" : "En groupe"
+        }
+	},
+	"gp": {
+        "description": {
+            "type" : "multi",
+            "1" : "PK ou PR ou numéro d'adresse postale en augmentation",
+            "2" : "PK ou PR ou numéro d'adresse postale décroissant"
+        }
+	},
+	"catv": {
+        "description": {
+            "type" : "multi",
+            "1" : "Vélo",
+            "2" : "Cyclomoteur <50cm3",
+            "3" : "Chariot (Quadricycle avec moteur carrossé) (anciennement 'chariot ou tricycle à moteur')",
+            "4" : "Non utilisé depuis 2006 (scooter enregistré)",
+            "5" : "Non utilisé depuis 2006 (moto)",
+            "6" : "Non utilisé depuis 2006 (side-car)",
+            "7" : "VL uniquement",
+            "8" : "Catégorie non utilisée (VL + caravane)",
+            "9" : "Catégorie non utilisée (VL + remorque)",
+            "10" : "VU seulement 1,5T <= GVW <= 3,5T avec ou sans remorque (anciennement VU seulement 1,5T <= GVW <= 3,5T)",
+            "11" : "Plus utilisé depuis 2006 (VU (10) + caravane)",
+            "12" : "Le plus utilisé depuis 2006 (VU (10) + bande-annonce)",
+            "13" : "PL seulement 3,5T"
+        }
+}
