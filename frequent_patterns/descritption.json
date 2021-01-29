@@ -1,4 +1,29 @@
 {
+    "age_range": {
+        "description": {
+            "type" : "multi",
+            "1": "0 - 12",
+            "2": "13 - 17",
+            "3": "18 - 25",
+            "4": "26 - 35",
+            "5": "36 - 50",
+            "6": "51 - 110"
+            
+        }
+        
+    },
+    "occutc": {
+        "description": {
+            "type" : "mono",
+            "value" : "Anne de l'accident"
+        }
+    },
+    "an": {
+        "description": {
+            "type" : "mono",
+            "value" : "Anne de l'accident"
+        }
+    },
     "mois": {
 		"description": {
             "type" : "mono",
@@ -27,7 +52,8 @@
             "type" : "multi",
             "1" : "Hors agglomération",
             "2" : "En agglomération"
-        }
+         }
+    },
 	"int": {
         "description": {
             "type" : "multi",
@@ -220,7 +246,7 @@
 	"etatp": {
         "description": {
             "type" : "multi",
-            "1" : "Seul,
+            "1" : "Seul",
             "2" : "Accompagné",
             "3" : "En groupe"
         }
@@ -249,4 +275,5 @@
             "12" : "Le plus utilisé depuis 2006 (VU (10) + bande-annonce)",
             "13" : "PL seulement 3,5T"
         }
+    }
 }
