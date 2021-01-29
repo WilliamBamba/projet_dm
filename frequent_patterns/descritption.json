@@ -1,4 +1,10 @@
 {
+    "place": {
+        "description": {
+            "type" : "mono",
+            "value" : "Place occupée"
+        }
+    },
     "age_range": {
         "description": {
             "type" : "multi",
