@@ -1,5 +1,5 @@
 # Projet Accidents de voiture
-## Introduction
+# Introduction
 Ce projet se base sur les données des accidents s'étant produit en France de 2005 à 2016. A partir de ce jeu de données nous avons mis répondus à plusieurs questions que nous nous sommes posés en réalisant des algorithmes de clustering ainsi qu'en recherchant de motifs fréquents. 
 
 Vous trouverez notre rapport expliquant tout ce que nous avons réalisé lors de ce projet. 
@@ -12,7 +12,7 @@ Ce projet a été réalisé par :
 * SOLOMON Maria
 * TREGER Pauline
 
-## Lancer les algorithmes de clustering
+# Lancer les algorithmes de clustering
 La première partie de notre projet consiste à utiliser des algorithmes de clustering dans KNIME.
 
 ### Pré-requis
@@ -26,7 +26,7 @@ Lorsque vous ouvrez un de nos algorithmes dans KNIME, il faudra charger dans cha
 Une fois tous les fichiers correctement chargés, vous pourrez lancer l'algorithme.  
   
   
-## Lancer la recherche de motifs fréquents
+# Lancer la recherche de motifs fréquents
 La deuxième partie de notre projet consiste à utiliser un algorithme de recherche de motifs fréquents.
 
 ### Pré-requis
