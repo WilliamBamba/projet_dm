@@ -32,7 +32,7 @@ La deuxième partie de notre projet consiste à utiliser des algorithmes de rech
 #### Pré-requis
 Nous avons réalisé la recherche de motifs fréquents à l'aide du langage de programmation Python et ses librairies.  
 Afin de pouvoir lancer notre code, il vous faut donc installer Python ainsi qu'un logiciel pouvant lire des NoteBook Python.  
-Télécharger les données se trouvant ici, télécharger le fichier et placez le dans le dossier "frequent_patterns".
+Téléchargez les données se trouvant ici, téléchargez le fichier et placez le dans le dossier "frequent_patterns".
 
 #### Exécution du code
 Une fois toutes ces installations réalisées, vous pourrez ouvrir et exécuter notre NoteBook Python "frequent_item.ipynb" se trouvant dans le dossier " frequent_patterns".
