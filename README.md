@@ -32,7 +32,7 @@ La deuxième partie de notre projet consiste à utiliser des algorithmes de rech
 #### Pré-requis
 Nous avons réalisé la recherche de motifs fréquents à l'aide du langage de programmation Python et ses librairies.  
 Afin de pouvoir lancer notre code, il vous faut donc installer Python et les librairies `mlxtend` et `pandas`, ainsi qu'un logiciel pouvant lire des NoteBook Python.  
-Téléchargez les données se trouvant <a href='www.kaggle.com/dataset/49ae342a734271e08724f10b9ecfb73a936ed9f05bd3061fb1ea50bfef14d25f'>ici</a>, téléchargez le fichier et placez le dans le dossier "frequent_patterns".
+Téléchargez les données se trouvant [Ici](www.kaggle.com/dataset/49ae342a734271e08724f10b9ecfb73a936ed9f05bd3061fb1ea50bfef14d25f), téléchargez le fichier et placez le dans le dossier "frequent_patterns".
 
 #### Exécution du code
 Une fois toutes ces installations réalisées, vous pourrez ouvrir et exécuter notre NoteBook Python "frequent_item.ipynb" se trouvant dans le dossier " frequent_patterns".
