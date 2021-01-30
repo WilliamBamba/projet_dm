@@ -18,7 +18,7 @@ La première partie de notre projet consiste à utiliser des algorithmes de clus
 #### Pré-requis
 Ces algorithmes ont été réalisé à l'aide du logiciel KNIME.  
 Pour lancer les différentes parties de clustering de ce projet, il faut donc au préalable avoir téléchargé le logiciel KNIME.  
-Les 6 jeux de données, utilisés dans nos algorithmes, se trouvent [ici](https://www.kaggle.com/shstars/pretraitement-geo-dm/data). Ces données sont celles que nous avons créé à l'aide de notre pré-traitement.  
+Téléchargez les 6 jeux de données, utilisés dans nos algorithmes, se trouvent [ici](https://www.kaggle.com/shstars/pretraitement-geo-dm/data). Ces données sont celles que nous avons créé à l'aide de notre pré-traitement.  
 
 #### Exécution dans KNIME
 Une fois que vous avez téléchargé KNIME et les 6 fichiers csv, vous pourrez lancer tous nos algorithmes de clustering se trouvant dans le dossier "Cluster" dans KNIME.  
